@@ -24,7 +24,7 @@ public class Starter  {
 	        } );
 	        
 	        // Gracefully stop the broker
-	        if( latch.await( 1, TimeUnit.SECONDS ) == false ) {
+	        if( !latch.await( 1, TimeUnit.SECONDS ) ) {
 	        	System.out.println("The broker hasn't been stopped, exiting anyway ...");
 	        }
     	}
