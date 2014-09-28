@@ -7,4 +7,4 @@
 - mvn clean package
 - target/appassembler/bin/runner (target/appassembler/bin/runner.bat on Windows)
 or  
-- java -cp target/appassembler/lib/* com.example.messaging.Starter
+- java -cp target/appassembler/repo/* com.example.messaging.Starter
